@@ -1,5 +1,3 @@
-# Название сценария
+# Миграция данных из Elasticsearch в Yandex Managed Service for OpenSearch
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете перенести данные из кластера Elasticsearch в кластер [Managed Service for OpenSearch](https://cloud.yandex.ru/docs/managed-opensearch) с помощью снапшотов или переиндексации. Настройка обоих способов через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/docs/managed-opensearch/tutorials/migration-to-opensearch), необходимые для настройки конфигурационные файлы [es-mos-migration-snapshot.tf](es-mos-migration-snapshot.tf) и [es-mos-migration-reindex.tf](es-mos-migration-reindex.tf) расположены в этом репозитории.
