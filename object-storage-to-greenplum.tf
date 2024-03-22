@@ -69,7 +69,7 @@ resource "yandex_vpc_security_group" "security_group" {
 
 # Infrastructure for the Object Storage bucket
 
-# Create a service account.
+# Create a service account
 resource "yandex_iam_service_account" "example-sa" {
   folder_id = local.folder_id
   name      = local.sa-name
