@@ -1,0 +1,3 @@
+# Uploading data from Yandex Object Storage into Yandex Managed Service for Greenplum® through Yandex Data Transfer
+
+With [Data Transfer](https://yandex.cloud/docs/data-transfer), you can transfer data from an [Object Storage](https://yandex.cloud/en/docs/storage) bucket to a [Managed Service for Greenplum®](https://yandex.cloud/en/docs/managed-greenplum) table. See [this tutorial](https://yandex.cloud/en/docs/data-transfer/tutorials/object-storage-to-greenplum) to learn how to set up the solution with Terraform. This repository contains the configuration file you will need: [object-storage-to-greenplum.tf](object-storage-to-greenplum.tf).
